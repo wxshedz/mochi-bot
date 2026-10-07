@@ -1,0 +1,42 @@
+{
+  "guildId": "YOUR_GUILD_ID",
+  "channels": {
+    "welcome": "WELCOME_CHANNEL_ID",
+    "chat": "GENERAL_CHAT_CHANNEL_ID",
+    "dailyQuestion": "DAILY_QUESTION_CHANNEL_ID",
+    "giveaways": "GIVEAWAYS_CHANNEL_ID",
+    "topChatter": "TOP_CHATTER_ANNOUNCE_CHANNEL_ID"
+  },
+  "roles": {
+    "moonchild": "BASE_MEMBER_ROLE_ID",
+    "staff": "STAFF_ROLE_ID",
+    "giveawayPing": "GIVEAWAY_PING_ROLE_ID",
+    "dailyQuestionPing": "DAILY_QUESTION_PING_ROLE_ID",
+    "topChatter": "TOP_CHATTER_ROLE_ID",
+    "levelRoles": {
+      "1": "LEVEL_1_ROLE_ID",
+      "5": "LEVEL_5_ROLE_ID",
+      "10": "LEVEL_10_ROLE_ID",
+      "20": "LEVEL_20_ROLE_ID",
+      "35": "LEVEL_35_ROLE_ID",
+      "50": "LEVEL_50_ROLE_ID"
+    }
+  },
+  "xp": {
+    "min": 15,
+    "max": 25,
+    "cooldown": 60,
+    "ignoredChannels": []
+  },
+  "levelFormula": {
+    "a": 5,
+    "b": 50,
+    "c": 100
+  },
+  "timezone": "Europe/Madrid",
+  "cron": {
+    "dailyQuestion": "0 18 * * *",
+    "topChatter": "0 20 * * 0"
+  },
+  "embedColor": "#E8C9FF"
+}

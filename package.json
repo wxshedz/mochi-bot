@@ -1,0 +1,43 @@
+{
+  "name": "mochi-bot",
+  "version": "1.0.0",
+  "description": "Discord bot with leveling, giveaways, reaction roles, and scheduled tasks",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "deploy-commands": "node deploy-commands.js",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord-bot",
+    "leveling",
+    "giveaways",
+    "reaction-roles"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/mochi-bot.git"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "mongoose": "^8.1.1",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5",
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

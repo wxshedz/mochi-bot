@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Environment & Config
+.env
+.env.*
+!.env.example
+config.json
+!config.example.json
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Build
+dist/
+build/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary
+*.tmp
+.cache/
