@@ -41,7 +41,7 @@ Edit `.env`:
 ```env
 DISCORD_TOKEN=your_bot_token
 CLIENT_ID=your_client_id
-MONGODB_URI=mongodb://localhost:27017/mochi
+MONGODB_URI=your_mongodb_uri
 ```
 
 4. Configure the bot settings
